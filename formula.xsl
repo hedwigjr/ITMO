@@ -1,0 +1,51 @@
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output method="xml" encoding="UTF-8"/>
+  <xsl:template match="/">
+    <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+      <mrow>
+        <mi>&#x3c3;</mi>
+        <mo>=</mo>
+        <msqrt> 
+        <mrow>
+          <mfrac>
+            <mrow>
+              <mn>1</mn>
+            </mrow>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+          </mfrac>
+          <mrow>
+            <munderover>
+              <mrow>
+                <mo>&#x2211;</mo>
+              </mrow>
+              <mrow>
+                <mi>i</mi>
+                <mo>=</mo>
+                <mn>1</mn>
+              </mrow>
+              <mrow>
+                <mi>N</mi>
+              </mrow>
+            </munderover>
+          </mrow>
+          <msup>
+            <mrow>
+              <mo>(</mo>
+              <msub>
+                <mi>x</mi>
+                <mi>i</mi>
+              </msub>
+              <mo>-</mo>
+              <mi>&#x3bc;</mi>
+              <mo>)</mo>
+            </mrow>
+            <mn>2</mn>
+          </msup>
+          </mrow>
+        </msqrt> 
+      </mrow>
+    </math>
+  </xsl:template>
+</xsl:stylesheet>

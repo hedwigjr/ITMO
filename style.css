@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    margin: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: chartreuse;
+}
+
+button:hover {
+    background-color:darkgreen;
+}
